@@ -13,7 +13,7 @@ Compatible with [Connect](https://github.com/senchalabs/connect), [Express](http
 ### pages/api/my-endpoint.js
 
 ```js
-import http from '../../../';
+import http from 'next-http';
 import connect from 'connect';
 
 const app = connect();
