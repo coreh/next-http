@@ -1,5 +1,8 @@
 # next-http
 
+![npm](https://img.shields.io/npm/v/npm.svg)
+![license](https://img.shields.io/github/license/coreh/next-http.svg)
+
 Higher Order Component to mount arbitrary HTTP request handlers as [Next.js](https://github.com/zeit/next.js) pages. (When rendering on the server side.)
 
 Allows to more easily expose custom handlers (e.g. for simple API endpoints) while still leveraging Next.js's bundling, transpilation, routing and hot code reloading functionality.
