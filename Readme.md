@@ -26,6 +26,8 @@ app.use((req, res) => {
 export default http(app);
 ```
 
+**Note:** We'e using Connect here for for illustration purposes, you could also use Express, Koa or write your own handler function directly
+
 ### next.config.js
 
 ```js
